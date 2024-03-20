@@ -1,0 +1,27 @@
+===== EXECUTION WINDOW =====
+.
+.
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.032s
+
+OK
+
+========================================================
+task: [False] Create TODO aggregate: You will need to create task aggregate!
+task: [False] Create 2 TODO aggregate: You will need to create task aggregate!
+========================================================
+task: [False] Create TODO aggregate: You will need to create task aggregate!
+[TodoTask(id=1, title='Initial task', description='Do something initially', is_done=False, uuid='0cdf50df-9ef8-4668-a2b2-efe5fdd31b8b'), TodoTask(id=2, title='Generic Task 2', description='Do something: task 2', is_done=False, uuid='8e0ceca8-1ee9-4fee-acc2-ffd01155aaab'), TodoTask(id=3, title='Better task', description='Create better task description', is_done=False, uuid='b5ad955e-70e2-43c4-a54d-170e98c2dbd2')]
+[Done=False] Initial task: Do something initially
+[Done=False] Generic Task 2: Do something: task 2
+[Done=False] Better task: Create better task description
+
+[Done=False] Generic Task 2: Do something: task 2
+[Done=False] Better task: Create better task description
+
+[Done=False] Not so generic: Do something: task 2
+[Done=False] Better task: Create better task description
+
+
+
