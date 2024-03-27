@@ -56,6 +56,9 @@ class TestTodo(unittest.TestCase):
         ## Cleanup the database
         config.session.query(model.Todo).delete()
         config.session.commit()
+        
+
+        #config.session.execute(text("DROP table todo_tasks"))
 
 # Main part Start the tests 
 
