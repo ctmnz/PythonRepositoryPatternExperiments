@@ -9,7 +9,7 @@ class Todo():
     description: str
     is_done: bool = False
     id: int = field(init=False)
-    uuid: Optional[str]=field(default_factory=lambda: str(uuid.uuid4()))
+    uuid: Optional[str]=field(default_factory=lambda : str(uuid.uuid4()))
 
     def mark_as_done(self):
         self.is_done = True
